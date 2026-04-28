@@ -1,1 +1,9 @@
-# POOTEMA2
+După o perioadă intensă de dezvoltare software, aplicația de simulare a campionatelor de fotbal este pregătită să fie utilizată. Programul gestionează mai multe campionate citite dintr-un fișier de intrare și oferă utilizatorului posibilitatea de a interacționa cu acestea printr-un meniu dedicat.
+Utilizatorul poate genera programul meciurilor, simula etape individuale sau întregul sezon competițional și poate vizualiza clasamentele și rezultatele obținute. De asemenea, aplicația permite accesul la informații detaliate despre echipe și jucători, cum ar fi loturile, cel mai bun jucător din fiecare echipă sau distribuția jucătorilor pe poziții.
+Toate campionatele și echipele sunt gestionate prin clase dedicate, iar datele sunt validate pentru a preveni erori de introducere. În plus, aplicația tratează excepțiile apărute în timpul rulării, asigurând o experiență stabilă și controlată pentru utilizator.
+
+Bibliografie:
+-Libraria #include<cstdlib> si #include<ctime> sunt folosite pentru a genera un numar mai mic strict decat 3 la care se aduna performanta jucatorilor impartita la valoarea 50 pentru a genera random numarul de goluri marcate de echipa gazda si echipa oaspete
+-Libraria #include<memory> ne ofera ,,shared_ptr" care este un pointer inteligent care ne ajuta sa gestionam durata de viata a unui obiect.Totodata se foloseste si make_shared pentru a aloca memorie,iar prin intermediul ei nu trebuie sa facem delete deoarece stergea se realizeaza automat atunci cand obiectul nu mai este folosit.
+-Libraria #include<alghoritm> folosita pentru a ne oferi functia sort pe care o vom folosi la sortarea clasamentului prin intermediul unei functii lambda.
+-srand(time(nullptr)) obtinuta din #include<cstdlib> si #include<ctime> este folosita pentru ca lafiecare rulare a programului sa nu fie generat mereu acelasi scor
