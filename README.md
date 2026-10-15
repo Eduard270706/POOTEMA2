@@ -8,6 +8,4 @@ Bibliografie:
 -Libraria #include<alghoritm> folosita pentru a ne oferi functia sort pe care o vom folosi la sortarea clasamentului prin intermediul unei functii lambda.
 -srand(time(nullptr)) obtinuta din #include<cstdlib> si #include<ctime> este folosita pentru ca lafiecare rulare a programului sa nu fie generat mereu acelasi scor
 
-Review:
--Nume:Neagu Eric
--Nume proiect:Desfasurarea unei misiuni spatiale
+
